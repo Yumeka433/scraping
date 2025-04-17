@@ -2,7 +2,10 @@ module project
 
 go 1.24.1
 
-require github.com/gocolly/colly v1.2.0
+require (
+	github.com/aws/aws-lambda-go v1.48.0
+	github.com/gocolly/colly v1.2.0
+)
 
 require (
 	github.com/PuerkitoBio/goquery v1.10.3 // indirect
